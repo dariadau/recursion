@@ -5,16 +5,17 @@
 * Нахождение чисел Фибоначчи
 
 ## Структура проекта
-
-`recursion/`  
-├── `README.md` 
-├── `__init__.py` 
-├── `factorial/`  
-│   ├── `__init__.py`  
-│   └── `code.py`  
-└── `fibonacci_sequence/`  
-    ├── `__init__.py`  
-    └── `code.py`  
+```bash
+recursion/  
+├── README.md 
+├── __init__.py 
+├── factorial/  
+│   ├── __init__.py  
+│   └── code.py  
+└── fibonacci_sequence/  
+    ├── __init__.py  
+    └── code.py  
+```
     
 ## factorial
 Содержит рекурсивную реализацию вычисления факториала числа .
@@ -33,7 +34,7 @@ def factor(data):
 
 __Пример работы:__
 ```bash
-from factorial import factor
+from recursion import factor
 
 print(factor(5))                # Вывод: 120
 ```
@@ -69,7 +70,7 @@ def fib(n):
 
 __Пример работы:__
 ```bash
-from fibonacci_sequence.code import fib
+from recursion import fib
 
 print(fib(7))  # Вывод: 13
 ```
