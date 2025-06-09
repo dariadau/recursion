@@ -3,7 +3,7 @@ def factor(data):
         return 1
 
     else:  # рекурсивный  случай
-        return factor(data - 1)
+        return factor(data - 1) * data
 
 
 # Рекурсия 1: data = 5, else: func(4)    результат: 24 * 5 = 120
